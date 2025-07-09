@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "Mock API for Reely Video Captioning App",
   "scripts": {
-    "start": "json-server --watch db.json --port ${PORT:-8080}"
+    "start": "json-server --host 0.0.0.0 --watch db.json --port $PORT"
   },
   "keywords": [],
   "author": "Swaraj Kumar",
