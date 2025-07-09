@@ -1,0 +1,16 @@
+{
+  "name": "reely-json-server",
+  "version": "1.0.0",
+  "description": "Mock API for Reely Video Captioning App",
+  "main": "index.js",
+  "scripts": {
+    "start": "json-server --watch db.json --port 8080"
+  },
+  "keywords": [],
+  "author": "Swaraj Kumar",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "json-server": "^0.17.3"
+  }
+}
